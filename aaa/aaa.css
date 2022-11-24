@@ -1,0 +1,58 @@
+#search-box, #users-box{
+    width: 70%;
+    margin: 50px auto;
+    border: 2px solid rgb(0, 0, 255);
+    padding: 10px;
+    overflow: hidden;
+}
+#search-box > input{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+#search-box > button{
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+}
+#vernagir1{
+    width: 100%;
+    text-align: center;
+}
+.userclass{
+    width: 25%;
+    border: 1px solid blue;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+nav > h2{
+    text-align: center;
+}
+nav > h2 > span{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+#filters{
+    width: 250px;
+    height: 92%;
+    border: 1px solid rgb(0, 0, 255);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    color: white;
+    background-color: turquoise;
+    display: none;
+}
+#filters > p {
+    width: 100%;
+}
+#filters > select, #filters > button{
+    font-size: 18px;
+    width: 100%;
+}
+body{
+    font-family:arial ;
+    color: red;
+}
